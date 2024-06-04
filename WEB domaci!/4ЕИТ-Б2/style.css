@@ -1,0 +1,70 @@
+body {
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ 
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px black;
+    color: rgb(255, 255, 142);
+}
+ 
+#nav {
+    text-align: center;
+}
+ 
+#nav ul a li {
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: rgb(255, 255, 142);
+    padding: 20px 70px;
+    color: rgb(44, 17, 28);
+}
+ 
+#nav ul a li:hover {
+    color: rgb(255, 255, 142);
+    background-color:rgb(44, 17, 28);
+}
+ 
+.container {
+    text-align: center;
+    margin-top: 10%;
+}
+ 
+.container img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+}
+ 
+footer{
+    background-color: rgb(44, 17, 28);
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    padding: 20px;
+    color: rgb(255, 255, 142);
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 1px 1px black;
+    color: rgb(255, 255, 142);
+    font-size:50px;
+}
+
+p {
+    text-align: center;
+    color:rgb(255, 255, 142);
+    font-size: 25px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="rs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домаће животиње</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ДОМАЋЕ ЖИВОТИЊЕ</h1>
+    <div id="nav">
+        <ul>
+            <a href="index.html"><li>Почетна</li></a>
+            <a href="o_autoru.html"><li>О аутору</li></a>
+            <a href="uputstvo.html"><li>Упутство</li></a>
+        </ul>
+    </div>
+ 
+    <div class="container">
+        <img
+          src="./images/animal1.jpg"
+          alt="pas"
+          id="pas"
+          onmouseover="playSound(id)"
+          onmouseout="stopSound(id)"
+          onclick="openWindow(id)"
+        />
+        <img
+          src="./images/animal2.jpg"
+          alt="patka"
+          id="patka"
+          onmouseover="playSound(id)"
+          onmouseout="stopSound(id)"
+          onclick="openWindow(id)"
+        />
+        <img
+          src="./images/animal3.jpg"
+          alt="macka"
+          id="macka"
+          onmouseover="playSound(id)"
+          onmouseout="stopSound(id)"
+          onclick="openWindow(id)"
+        />
+        <img
+          src="./images/animal4.jpg"
+          alt="pile"
+          id="pile"
+          onmouseover="playSound(id)"
+          onmouseout="stopSound(id)"
+          onclick="openWindow(id)"
+        />
+        <img
+          src="./images/animal5.jpg"
+          alt="krava"
+          id="krava"
+          onmouseover="playSound(id)"
+          onmouseout="stopSound(id)"
+          onclick="openWindow(id)"
+        />
+    </div>
+    <footer>Copyright © Предшколска установа срећно дете</footer>
+    <audio src="./sounds/dog.mp3" id="pasZvuk"></audio>
+    <audio src="./sounds/duck.mp3" id="patkaZvuk"></audio>
+    <audio src="./sounds/cat.mp3" id="mackaZvuk"></audio>
+    <audio src="./sounds/chicken.mp3" id="pileZvuk"></audio>
+    <audio src="./sounds/cow.mp3" id="kravaZvuk"></audio>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Instrumenti</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>ОСНОВНА ШКОЛА "СОЊА МАРИНКОВИЋ"</h1>
+
+	<div id="meni">
+		<a href="index.html">Почетна</a>
+		<a href="o_autoru.html">О аутору</a>
+		<a href="uputstvo.html">Упутство</a>
+	</div>
+
+	<h2>Звуци инструмената</h2>
+
+	<div id="content">
+<pre>
+М  к
+у  у
+з  л
+и  т
+ч  у
+к  р
+а  а
+</pre>
+		<table>
+		  	<tr>
+		    	<th>Назив инструмента</th>
+		    	<th>Слика инструмента</th>
+		    	<th>Звук инструмента</th>
+		  	</tr>
+
+		  	<tr>
+		    	<td class="naziv">Гитара</td>
+		   	 	<td><a href="http://sr.wikipedia.org/wiki/Гитара" target="_blank"><img src="images/gitara.jpg"/></a></td>
+		    	<td>
+		    		<img src="images/zvucnik.jpg" class="zv" id="gitara" onmouseover="pusti(id)" onmouseout="stani(id)">
+		    		<audio src="sounds/gitara.mp3" id="zvuk_gitara"></audio>
+		    		<a href="info/zicani.html" class="zvuk" onClick="window.open('info/zicani.html','Zicani','resizable,height=250,width=300'); return false;">Сазнај више</a>
+		    	</td>
+		  	</tr>
+
+		  	<tr>
+		    	<td class="naziv">Клавир</td>
+		   	 	<td><a href="http://sr.wikipedia.org/wiki/Клавир" target="_blank"><img src="images/klavir.jpg"/></a></td>
+		    	<td>
+		    		<img src="images/zvucnik.jpg" class="zv" id="klavir" onmouseover="pusti(id)" onmouseout="stani(id)">
+		    		<audio src="sounds/klavir.mp3" id="zvuk_klavir"></audio>
+		    		<a href="info/klavir.html" class="zvuk" onClick="window.open('info/klavir.html','Klavir','resizable,height=250,width=300'); return false;">Сазнај више</a>
+		    	</td>
+		  	</tr>
+
+		  	<tr>
+		    	<td class="naziv">Хармоника</td>
+		   	 	<td><a href="http://sr.wikipedia.org/wiki/Хармоника" target="_blank"><img src="images/harmonika.jpg"/></a></td>
+		    	<td>
+		    		<img src="images/zvucnik.jpg" class="zv" id="harmonika" onmouseover="pusti(id)" onmouseout="stani(id)">
+		    		<audio src="sounds/harmonika.mp3" id="zvuk_harmonika"></audio>
+		    		<a href="info/harmonika.html" class="zvuk" onClick="window.open('info/harmonika.html','Harmonika','resizable,height=250,width=300'); return false;">Сазнај више</a>
+		    	</td>
+		  	</tr>
+
+		  	<tr>
+		    	<td class="naziv">Труба</td>
+		   	 	<td><a href="http://sr.wikipedia.org/wiki/Труба" target="_blank"><img src="images/truba.jpg"/></a></td>
+		    	<td>
+		    		<img src="images/zvucnik.jpg" class="zv" id="truba" onmouseover="pusti(id)" onmouseout="stani(id)">
+		    		<audio src="sounds/truba.mp3" id="zvuk_truba"></audio>
+		    		<a href="info/duvacki.html" class="zvuk" onClick="window.open('info/duvacki.html','Duvacki','resizable,height=250,width=300'); return false;">Сазнај више</a>
+		    	</td>
+		  	</tr>
+
+		  	<tr>
+		    	<td class="naziv">Бубњеви</td>
+		   	 	<td><a href="http://sr.wikipedia.org/wiki/Бубњеви" target="_blank"><img src="images/bubnjevi.jpg"/></a></td>
+		    	<td>
+		    		<img src="images/zvucnik.jpg" class="zv" id="bubnjevi" onmouseover="pusti(id)" onmouseout="stani(id)">
+		    		<audio src="sounds/bubnjevi.mp3" id="zvuk_bubnjevi"></audio>
+		    		<a href="info/udaraljke.html" class="zvuk" onClick="window.open('info/udaraljke.html','Udaraljke','resizable,height=250,width=300'); return false;">Сазнај више</a>
+		    	</td>
+		  	</tr>
+
+		  	<tr>
+		    	<td class="naziv">Саксофон</td>
+		   	 	<td><a href="http://sr.wikipedia.org/wiki/Саксофон" target="_blank"><img src="images/saksofon.jpg"/></a></td>
+		    	<td>
+		    		<img src="images/zvucnik.jpg" class="zv" id="saksofon" onmouseover="pusti(id)" onmouseout="stani(id)">
+		    		<audio src="sounds/saksofon.mp3" id="zvuk_saksofon"></audio>
+		    		<a href="info/duvacki.html" class="zvuk" onClick="window.open('info/duvacki.html','Duvacki','resizable,height=250,width=300'); return false;">Сазнај више</a>
+		    	</td>
+		  	</tr>
+		</table>
+	</div>
+
+	<p id="footer">Copyright © Основна школа "Соња Маринковић"</p>
+
+	<script src="script.js"></script>
+</body>
+</html>
